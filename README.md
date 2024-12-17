@@ -29,10 +29,11 @@ Deux composantes ont été installées avec Docker :
 
 ## Étape 2: Création de conteneurs sur le poste local
 #### Les commandes réalisées :
-Créer le réseau privé virtuel :
+Création du réseau privé virtuel :
 ```
 docker network create mon_reseau
 ```
+résultat : 
 
 Lancer le conteneur Apache :
 ```
