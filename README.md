@@ -27,3 +27,19 @@ Deux composantes ont été installées avec Docker :
    ```
 ![description](Images/verif_Docker2.png). 
 
+## Étape 2: Création de conteneurs sur le poste local
+#### Les commandes réalisées :
+Créer le réseau privé virtuel :
+```
+docker network create mon_reseau
+```
+
+Lancer le conteneur Apache :
+```
+docker run -d --name apache --network mon_reseau -p 80:80 httpd:latest
+```
+
+Lancer le conteneur MongoDB :
+```
+docker run -d --name mongodbr --network mon_reseau -e MONGO_INITDB_ROOT_USERNAME=adminmongo MONGO_INITDB_ROOT_PASSWORD=EncoreUneAutreBD -v mongodb mongodb/mongodb-community-server
+```
