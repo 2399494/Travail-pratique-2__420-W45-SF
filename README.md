@@ -41,5 +41,7 @@ docker run -d --name apache --network mon_reseau -p 80:80 httpd:latest
 
 Lancer le conteneur MongoDB :
 ```
-docker run -d --name mongodbr --network mon_reseau -e MONGO_INITDB_ROOT_USERNAME=adminmongo MONGO_INITDB_ROOT_PASSWORD=EncoreUneAutreBD -v mongodb mongodb/mongodb-community-server
+docker run -d --name mongodb --network mon_reseau -e MONGO_INITDB_ROOT_USERNAME=adminmongo MONGO_INITDB_ROOT_PASSWORD=EncoreUneAutreBD -v mongodb mongodb/mongodb-community-server
 ```
+
+
