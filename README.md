@@ -84,3 +84,33 @@ Digest: sha256:0bf4cc673f6a396bb1bfdb68dd5c3ef8a6deff92856abb966994add599d64440
 Status: Downloaded newer image for mongodb/mongodb-community-server:latest
 b6deee8ecd842283c590c8cce2e850463d0b7f59b197be71d11697e8a853096a
 ```
+
+- Vérifier la présence des conteneurs :
+```
+docker ps
+```
+
+résultat :
+```
+CONTAINER ID   IMAGE                              COMMAND                  CREATED          STATUS          PORTS                               NAMES
+b6deee8ecd84   mongodb/mongodb-community-server   "python3 /usr/local/…"   19 minutes ago   Up 19 minutes   27017/tcp                           mongodb
+f67c4d463784   httpd:latest                       "httpd-foreground"       24 minutes ago   Up 24 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   apache
+```
+
+- Vérifier que les conteneurs sont bien reliés au réseau privé virtuel ```mon_reseau``` :
+```
+docker inspect apache mongodb  
+```
+
+-Vérifier les journaux apache :
+```
+docker logs apache
+```
+résultat :
+```
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 17 18:52:38.950560 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.62 (Unix) configured -- resuming normal operations
+[Tue Dec 17 18:52:38.956497 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+```
+
