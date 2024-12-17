@@ -25,5 +25,5 @@ Deux composantes ont été installées avec Docker :
    ```
    docker info
    ```
-![description](Images/Verif_Docker_Client.png). 
+![description](Images/verif_Docker2.png). 
 
