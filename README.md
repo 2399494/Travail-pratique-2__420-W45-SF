@@ -18,9 +18,12 @@ Deux composantes ont été installées avec Docker :
 - Pour Docker client :
    ```
    docker --version
-   ```  
+   ``` 
+![description](Images/verif_Docker1.png). 
+
 - Pour Docker Engine :
    ```
    docker info
    ```
+![description](Images/Verif_Docker_Client.png). 
 
