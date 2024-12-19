@@ -80,3 +80,15 @@ docker inspect apache
 docker logs apache
 ```
 ![description](Images/JournauxApache.png)
+
+
+- Lancer les conteneurs Drupal et PostgreSQL
+``` 
+docker run --rm --name some-drupal --network mon_reseau -p 8080:80 -d drupal
+```
+![description](Images/ContDrupal.png)
+
+```
+docker run --rm -d --name postgresql --network mon_reseau -e POSTGRES_USER=drupaluser -e POSTGRES_PASSWORD=drupalpass -e POSTGRES_DB=drupaldb postgres:latest
+```
+![description](Images/ContPostgresql.png)
