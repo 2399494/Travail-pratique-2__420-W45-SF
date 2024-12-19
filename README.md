@@ -4,7 +4,8 @@
 
 #### Date : 17-12-2024
 
-#### Description du projet : 
+#### Description du projet :
+Ce travail pratique a pour objectif de démontrer l'installation, la configuration et l'utilisation de Docker pour créer et gérer des conteneurs. Dans le cadre de ce projet, nous allons configurer un réseau virtuel, déployer des services comme Apache et MongoDB dans des conteneurs et créer une image personnalisée de Drupal avec PostgreSQL. Le projet inclut également la vérification du bon fonctionnement des conteneurs et l'application de règles de gestion sécuritaire pour les connexions réseau. 
 
 ## Section 1 : Vérification et conteneurs
 ## Étape 1: Vérification de l’installation
