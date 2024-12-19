@@ -31,7 +31,7 @@ Deux composantes ont été installées avec Docker :
 ![description](Images/verif_Docker2.png) 
 
 ## Étape 2: Création de conteneurs sur le poste local
-#### Les commandes réalisées :
+#### Les commandes réalisées et leurs résultats:
 
 - Créer le réseau privé virtuel :
 
