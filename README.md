@@ -1,4 +1,4 @@
-docker #### Nom du projet : 
+#### Nom du projet : 
 
 #### Nom : Ait Oumasste  Tarik 
 
@@ -63,8 +63,16 @@ docker ps
 
 - Vérifier que les conteneurs sont bien reliés au réseau privé virtuel ```mon_reseau``` :
 ```
-docker inspect apache mongodb  
+docker inspect apache 
 ```
+![description](Images/VerifApacheReseau.png)
+
+
+```
+docker inspect apache 
+```
+![description](Images/VerifMongodbReseau.png)
+
 
 -Vérifier les journaux apache :
 ```
