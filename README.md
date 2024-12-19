@@ -22,7 +22,7 @@ Deux composantes ont été installées avec Docker :
 
 #### Les commandes de création du réseau virtuel et des conteneurs, et de vérification de leur état :
 
-- **Pour Docker Client** :
+- Pour Docker Client :
   ```bash
   docker --version
    ``` 
@@ -82,7 +82,7 @@ Résultat de la commande :
 
 
 ```
-docker inspect apache 
+docker inspect mongodb 
 ```
 Résultat de la commande :
 ![description](Images/VerifMongodbReseau.png)
