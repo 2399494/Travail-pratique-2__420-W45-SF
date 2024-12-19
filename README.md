@@ -75,7 +75,7 @@ docker inspect apache
 ![description](Images/VerifMongodbReseau.png)
 
 
--Vérifier les journaux apache :
+- Vérifier les journaux apache :
 ```
 docker logs apache
 ```
