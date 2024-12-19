@@ -79,11 +79,4 @@ docker inspect apache
 ```
 docker logs apache
 ```
-résultat :
-```
-AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
-AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
-[Tue Dec 17 18:52:38.950560 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.62 (Unix) configured -- resuming normal operations
-[Tue Dec 17 18:52:38.956497 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
-```
-
+![description](Images/JournauxApache.png)
