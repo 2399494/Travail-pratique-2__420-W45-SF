@@ -16,6 +16,9 @@ RUN git clone --branch 5.0.x --single-branch --depth 1 https://git.drupalcode.or
 # Revenir au répertoire principal de Drupal
 WORKDIR /var/www/html
 
+# Définir les volumes nécessaires pour Drupal
+VOLUME ["/var/www/html/sites", "/var/www/html/files"]
+
 # Exposer le port 8080 pour Drupal
 EXPOSE 8080
 
