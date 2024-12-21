@@ -37,7 +37,7 @@ Résultat de la commande :
 Résultat de la commande :
 ![description](Images/verif_Docker2.png) 
 
-## Étape 2: Création de conteneurs sur le poste local
+### Étape 2: Création de conteneurs sur le poste local
 #### Les commandes réalisées et leurs résultats:
 
 - Créer le réseau privé virtuel :
@@ -108,3 +108,8 @@ docker run --rm -d --name postgresql --network mon_reseau -e POSTGRES_USER=drupa
 ```
 Résultat de la commande :
 ![description](Images/ContPostgresql.png)
+
+
+## Section 2 : Construction personnalisée d'une image
+- Voici la structure des fichiers et répertoires utilisée pour ce projet est la suivante :
+![description](Images/tree.png) 
