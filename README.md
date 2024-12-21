@@ -111,5 +111,5 @@ Résultat de la commande :
 
 
 ## Section 2 : Construction personnalisée d'une image
-- Voici la structure des fichiers et répertoires utilisée pour ce projet est la suivante :
+- Voici la structure des fichiers et répertoires utilisée pour ce projet :
 ![description](Images/tree.png) 
