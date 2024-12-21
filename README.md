@@ -110,6 +110,7 @@ Résultat de la commande :
 ![description](Images/ContPostgresql.png)
 
 
+
 ## Section 2 : Construction personnalisée d'une image
 - Voici la structure des fichiers et répertoires utilisée pour ce projet :
 ![description](Images/tree.png) 
