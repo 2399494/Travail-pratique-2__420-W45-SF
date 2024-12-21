@@ -29,7 +29,7 @@ Deux composantes ont été installées avec Docker :
 Résultat de la commande :
 ![description](Images/verif_Docker1.png) 
 
----
+
 - Pour Docker Engine :
    ```
    docker info
